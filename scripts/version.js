@@ -1,0 +1,1 @@
+document.write("Plaza v1.0");

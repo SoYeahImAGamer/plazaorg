@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MilkNMeth">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mcjava/MilkNMeth.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
