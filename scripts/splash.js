@@ -63,7 +63,8 @@ var r_text = new Array ();
   r_text[61] = "Robin of Loxley??";
   r_text[62] = "how does one become both bird and rat";
   r_text[63] = "dont let a shitty class in school discourage you from something you enjoy";
+  r_text[64] = "g";
 
-var i = Math.floor(64*Math.random())
+var i = Math.floor(65*Math.random())
 
 document.write(r_text[i]);
