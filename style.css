@@ -9,6 +9,17 @@
     .buttons{
       text-align: center;
     }
+    .separatebutton{
+        text-align:center;
+        display: inline-block;
+    }
+    .separatebutton:hover{
+        filter: brightness(75%)
+                drop-shadow(2px 0 0 pink)
+                drop-shadow(0 2px 0 pink)
+                drop-shadow(-2px 0 0 pink)
+                drop-shadow(0 -2px 0 pink);
+    }
     .homeButton {
       position: fixed;
       bottom: 0;
@@ -24,6 +35,17 @@
       text-align: bottom;
       text-align: center;
       color: pink;
+    }
+    .body{
+    margin: auto;
+    align: center;
+    width: 95%;
+    background-color: #2e1c26;
+    display: table;
+    transform: translate(0%, 5%);
+    top:10%;
+    border-radius: 5%;
+    border: 2px solid rebeccapurple;
     }
 
 

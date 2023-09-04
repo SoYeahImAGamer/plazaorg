@@ -15,7 +15,15 @@ const splash = [
 "pay no attention to malachi's mustache",
 "about 20,000 cheeseburgers an hour",
 "more consistent than my upload schedule",
-"fricka you"
+"fricka you",
+"I will not be calling it <i>X</i>",
+"TITTIES!",
+"Fricka Us",
+"rock n stone",
+"For Karl!",
+"WERERICH",
+"blow me load",
+"placeholder text"
 ];
 
 const r = Math.floor(Math.random() * splash.length);
