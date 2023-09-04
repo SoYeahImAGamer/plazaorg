@@ -36,6 +36,12 @@
       text-align: center;
       color: pink;
     }
+    .versionmain{
+      text-align: bottom;
+      text-align: center;
+      color: pink;
+      transform: translate(0%, 250%);
+    }
     .body{
     margin: auto;
     align: center;
