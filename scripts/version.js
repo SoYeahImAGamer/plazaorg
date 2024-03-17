@@ -1,1 +1,1 @@
-document.write("Plaza v1.0");
+document.write("Plaza v1.1");

@@ -23,7 +23,8 @@ const splash = [
 "For Karl!",
 "WERERICH",
 "blow me load",
-"placeholder text"
+"placeholder text",
+"true professionalism"
 ];
 
 const r = Math.floor(Math.random() * splash.length);
