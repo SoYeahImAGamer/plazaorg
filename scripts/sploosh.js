@@ -2,7 +2,7 @@ const splash = [
 "g",
 "guh",
 "canada isnt real",
-"malachi hate thread",
+"frickachi is cool",
 "subscibe",
 "<3",
 "balls",
@@ -12,18 +12,15 @@ const splash = [
 "going live since 2016",
 "how does one become both bird and rat",
 "literally 1984 bruh",
-"pay no attention to malachi's mustache",
 "about 20,000 cheeseburgers an hour",
 "more consistent than my upload schedule",
-"fricka you",
 "I will not be calling it <i>X</i>",
 "TITTIES!",
-"Fricka Us",
 "rock n stone",
 "For Karl!",
 "WERERICH",
 "blow me load",
-"placeholder text",
+"[placeholder text]",
 "true professionalism"
 ];
 
