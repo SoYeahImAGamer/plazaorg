@@ -5,11 +5,11 @@ function age(dt2, dt1)
   // Convert the difference from milliseconds to days
   diff /= (60 * 60 * 24);
   // Calculate the approximate number of years by dividing the difference in days by the average number of days in a year (365.25)
-  return Math.abs(Math.round(diff / 365.25));
+  return Math.abs(Math.floor(diff / 365.25))
 }
 
 // Create two Date objects representing different dates
-const dob = new Date("June 14, 2004");
+const dob = new Date(2004, 5, 14);
 const now = new Date();
 
 document.write("Hi I'm Robin<br><br>I'm " + age(now, dob) + " years old, and I've been streaming and making videos for about as long as I've had internet access");
