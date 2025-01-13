@@ -17,19 +17,19 @@
 	</style>
 </head>
 
-	<body style="background-color:#2e2730">
+	<body style="background-color:#1b171c">
     <div class="title">
     <!--hi there code viewer-->
     <!--not much here yet so make sure to come back later-->
       <a id="top"></a>
-        <h2>Welcome to The Super Secret Page</h2>
-        <h3>Shhh! It's a Secret!</h3>
+        <h2>Robin's Field Guide</h2>
+        <h3>Witness my Nerd Shit</h3>
     </div>
-        <div class="body">
+        <div class="dwurgbody">
 
             <!--im not gonna tell you what this is for because its a secret-->
             <!--feel free to figure it out though-->
-            <script src="../scripts/supersecretscript.js"></script>
+            <script src="../scripts/fieldguide.js"></script>
             <script>
                 getVars();
                 window.onclick = function(event) {
@@ -39,19 +39,18 @@
                 }
             </script>
 
-            <div class="title">
-                <h3>hmmm... seems a bit empty<br>
-                    <sup>maybe you should come back later
-                        <a id="modalButton" onclick="btnClick()" span title="Or will you venture deeper?">...</a></sup></h3>
-                <img src="https://media.tenor.com/aaEMtGfZFbkAAAAj/rat-spinning.gif" width="30%"/>
+            <div class="buttons">
+                <div class="separatebutton">
+                    <a onclick="btnClick('pee')"><img src="../logos/kofi.png" span title="placeholder" width="100"/></a>
+                </div>
             </div>
 
   </div>
 
-    <div id="modal" class="modal">
+    <div id="modal_pee" class="modal">
 
         <div class="modalContent">
-            <span class="close" onclick="mdlClose()">&times;</span>
+            <span class="close" onclick="mdlClose('pee')">&times;</span>
 
             <div class="buttons">
                 <md-block src="./docs/hidden.md"></md-block>
