@@ -121,7 +121,10 @@
       padding: 20px;
       border: 2px solid #02a818;
       width: 80%;
-      color: #02a818;
+      font-size: 1.5em;
+      color: #a8e6aa;
+      text-shadow: 0 0 5px #02a818, 0 0 7px #02a818, 0 0 10px #02a818, 0 0 15px #02a818, 0 0 20px #02a818;
+      animation: glow 1.5s infinite alternate;
       border-radius: 15px;
     }
 
@@ -139,6 +142,16 @@
       text-decoration: none;
       cursor: pointer;
     }
+
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 5px #02a818, 0 0 7px #02a818, 0 0 12px #02a818;
+        }
+        100% {
+            text-shadow: 0 0 7px #008f13, 0 0 10px #008f13, 0 0 15px #008f13;
+        }
+    }
+
 
 
 html {

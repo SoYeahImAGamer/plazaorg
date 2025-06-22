@@ -35,6 +35,7 @@
                 window.onclick = function(event) {
                   if (event.target == modal) {
                     modal.style.display = "none";
+                    clearModal();
                   }
                 }
             </script>
@@ -42,7 +43,7 @@
             <div class="title">
                 <h3>hmmm... seems a bit empty<br>
                     <sup>maybe you should come back later
-                        <a id="modalButton" onclick="btnClick()" span title="Or will you venture deeper?">...</a></sup></h3>
+                        <a style="color:#748074" id="modalButton" onclick="btnClick()" span title="Or will you venture deeper?">...</a></sup></h3>
                 <img src="https://media.tenor.com/aaEMtGfZFbkAAAAj/rat-spinning.gif" width="30%"/>
             </div>
 
@@ -51,12 +52,9 @@
     <div id="modal" class="modal">
 
         <div class="modalContent">
-            <span class="close" onclick="mdlClose()">&times;</span>
-
-            <div class="buttons">
-                <md-block src="./docs/hidden.md"></md-block>
-            </div>
-
+                <span class="close" onclick="mdlClose()">&times;</span>
+                <h2><\PLAZATECH TERMINAL\></h2>
+                <md-block id="pterminal"></md-block>
         </div>
     </div>
 
